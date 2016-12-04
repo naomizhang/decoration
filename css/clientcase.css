@@ -1,0 +1,19 @@
+@charset "utf-8";
+/* CSS Document */
+.example{position:relative;text-align:center;padding:40px 0 30px 0;}
+.example li {height:380px;overflow:hidden;}
+.example li div{display:inline-block;width:307px;height:200px;padding:90px 50px;background:#eee;vertical-align:top;text-align:left;}
+.example li h3{font-size:24px;padding:0 0 22px 0;font-weight:normal;}
+.example li p{font-size:14px;line-height:24px;}
+.example li .line{display:block;width:40px;height:6px;background:#a40000;margin:0 0 26px 0;}
+.example>span{position:absolute;height:380px;width:50%;background:#eee;}
+.example span.block1{top:151px;right:0;z-index:-1;}
+.example span.block2{top:531px;left:0;z-index:-1;}
+.example span.block3{top:911px;right:0;z-index:-1;}
+.example span.block4{top:1291px;left:0;z-index:-1;}
+.example span.block5{top:1671px;right:0;z-index:-1;}
+.example span.block6{top:2051px;left:0;z-index:-1;}
+.example span.block7{top:2431px;right:0;z-index:-1;}
+.example span.block8{top:2811px;left:0;z-index:-1;}
+
+

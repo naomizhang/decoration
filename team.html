@@ -1,0 +1,75 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>设计团队</title>
+<link href="css/team.css" rel="stylesheet" type="text/css" />
+<link href="css/head-footer.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+	<div class="head contents">   	
+    	<h1><a href="#" target="_blank">品筑印象</a></h1>
+    	<div class="tel">
+        	<p>24小时客服: <span>400-888-888</span></br>免费上门量尺、免费设计</p>
+        </div>
+        <div class="vx">
+        	<img src="images/erweima_03.jpg" width="67" height="67" alt=""/></br>关注公众号
+        </div>
+    </div>
+    <div class="nav">
+    	<ul class="clear">
+         	<li><a href="index.html" target="_self">首页</a></li>
+            <li><a href="clientcase.html" target="_self">设计案例</a></li>
+            <li><a href="advantage.html" target="_self">施工工艺</a></li>
+            <li><a href="team.html" target="_self">设计团队</a></li>
+            <li><a href="news.html" target="_self">家装资讯</a></li>
+            <li><a href="company.html" target="_self">联系我们</a></li>
+        </ul>
+    </div>
+    <div class="bread contents">
+	<a href="#" target="_blank">首页</a> > 设计团队
+	</div>
+    <div class="team contents">
+    	<h2 class="title"><a href="#" target="_blank">设计团队</a></h2>
+        <ul class="clear">
+        	<li><a href="#" target="_blank"><div><img src="images/designer_41.jpg" width="250" alt=""/></div><h3>Maya</br><span>首席设计师</span></h3><span class="hidden">预约设计</span><p class="introduce">设计师简介：</br>高级室内建筑师，品筑印象工作室负责人，获2011年度中国十大影响力室内设计师荣誉，擅长高级别墅设计，商业工装设计。</p></a></li>
+            <li><a href="#" target="_blank"><div><img src="images/designer_43.jpg" width="250" alt=""/></div><h3>Queenie</br><span>主任设计师</span></h3><span class="hidden">预约设计</span><p class="introduce">设计师简介：</br>高级室内建筑师，品筑印象工作室负责人，获2011年度中国十大影响力室内设计师荣誉，擅长高级别墅设计，商业工装设计。</p></a></li>
+            <li><a href="#" target="_blank"><div><img src="images/designer_45.jpg" width="250" alt=""/></div><h3>Emele</br><span>高级设计师</span></h3><span class="hidden">预约设计</span><p class="introduce">设计师简介：</br>高级室内建筑师，品筑印象工作室负责人，获2011年度中国十大影响力室内设计师荣誉，擅长高级别墅设计，商业工装设计。</p></a></li>
+            <li><a href="#" target="_blank"><div><img src="images/designer_47.jpg" width="250" alt=""/></div><h3>Noami</br><span>高级设计师</span></h3><span class="hidden">预约设计</span><p class="introduce">设计师简介：</br>高级室内建筑师，品筑印象工作室负责人，获2011年度中国十大影响力室内设计师荣誉，擅长高级别墅设计，商业工装设计。</p></a></li>
+        </ul>
+    </div>
+        <div class="client">
+    	
+          <h2>设计预约</h2>
+          <div class="contents">
+          <form>
+              <ul class="clear">                	
+                  <li><label>您的姓名</label></br><input type="text" name="" value=""/> *</li>
+                  <li><label>您的联系电话</label></br><input type="text" name="" value=""/> *</li>
+                  <li><label>您喜欢的风格</label></br><input type="text" name="" value=""/></li>
+              </ul>
+              <button>提交</button>
+          </form>
+        </div>
+    </div>
+    <div class="footer">
+    	<div class="contents">
+        	<p>武汉品筑印象装饰有限公司</br>公司地址：湖北省武汉市青山区冶金三十四街42门3号 联系电话：40-8800-8000 QQ：888888888</br>COPYRIGHT (©) 2016 913-品筑印象</p>
+        </div>
+    </div>
+
+<script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+<script>
+$(".team li").hover(function(){
+    $(this).find(".hidden").stop(true, true).fadeIn()
+	$(this).find("p").stop(true, true).animate({paddingLeft:'25',paddingRight:'25'})
+	
+},
+function(){
+	$(this).find(".hidden").stop(true, true).fadeOut()
+	$(this).find("p").stop(true, true).animate({paddingLeft:'0',paddingRight:'0'})
+});
+</script>
+</body>
+</html>

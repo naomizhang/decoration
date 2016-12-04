@@ -1,0 +1,9 @@
+@charset "utf-8";
+/* CSS Document */
+
+.advantage a{display:block;}
+.advantage a p{padding:30px 100px 0 100px;line-height:32px;}
+.advantage li{margin:0 0 50px 0;}
+.advantage li div{width:220px;text-align:center;padding:40px 40px;border:1px solid #ccc;}
+.advantage li p{width:650px;height:160px;}
+.advantage li:hover p{background:#f8f8f8;transition:all .5s ease;-moz-transition:all .5s ease;-webkit-transition:all .5s ease;}

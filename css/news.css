@@ -1,0 +1,14 @@
+@charset "utf-8";
+/* CSS Document */
+
+.news{padding-bottom:80px;}
+.news ul{padding:50px 0 0 0 ;}
+.news li{width:600px;float:left;vertical-align:top;text-align:left;padding:0 0 40px 0;}
+.news li div{height:160px; width:360px;padding:0 0 0 40px;}
+.news li span{line-height:64px;font-size:14px;}
+.news li h3{font-size:16px;font-weight:normal;padding:0 0 20px 0;}
+.news li p{font-size:12px;line-height:18px;}
+.news>p a{color:#a40000;display:block;width:120px;height:40px;margin:0 auto;border:1px solid #fff;line-height:40px;transition:all .3s ease;-moz-transition:all .3s ease;-webkit-transition:all .3s ease;}
+.news>p a:hover{border:1px solid #a40000;}
+
+.news .title{text-align:center;}
